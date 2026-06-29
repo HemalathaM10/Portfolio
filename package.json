@@ -37,6 +37,7 @@
     "typescript": "^5"
   },
   "overrides": {
-    "@types/react": "$@types/react"
+    "@types/react": "$@types/react",
+    "@types/react-dom": "$@types/react-dom"
   }
 }
