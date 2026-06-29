@@ -13,7 +13,7 @@ export const Footer = () => {
             Hemalatha M
           </p>
           <p className="text-white-100 text-[14px] mt-2 font-inter italic text-center md:text-left">
-            "Code. Learn. Improve. Repeat."
+            &quot;Code. Learn. Improve. Repeat.&quot;
           </p>
         </div>
 

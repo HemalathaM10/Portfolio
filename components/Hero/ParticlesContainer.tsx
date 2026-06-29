@@ -13,8 +13,11 @@ const Particles = () => {
   const positions = useMemo(() => {
     const pos = new Float32Array(count * 3);
     for (let i = 0; i < count; i++) {
+      // eslint-disable-next-line react-hooks/purity
       const theta = Math.random() * 2 * Math.PI;
+      // eslint-disable-next-line react-hooks/purity
       const phi = Math.acos(Math.random() * 2 - 1);
+      // eslint-disable-next-line react-hooks/purity
       const r = Math.cbrt(Math.random()) * 2.5; // Radius of 2.5
 
       pos[i * 3] = r * Math.sin(phi) * Math.cos(theta);
