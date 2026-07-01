@@ -29,7 +29,6 @@ const skillCategories = [
     title: "Tools & Additional",
     skills: [
       { name: "VS Code", level: 90, icon: <Code2 size={24} />, color: "text-blue-400", bg: "bg-blue-400" },
-      { name: "Tally with GST", level: 70, icon: <Calculator size={24} />, color: "text-yellow-500", bg: "bg-yellow-500" },
       { name: "English Typewriting", level: 95, icon: <Keyboard size={24} />, color: "text-accent", bg: "bg-accent" },
     ]
   }
